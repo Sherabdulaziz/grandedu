@@ -1,0 +1,41 @@
+
+// .boxes200{
+//     display: flex;
+//     justify-content: space-evenly;
+//     margin-bottom: 60px ;
+// }
+// .box5{
+//     box-shadow:0 0 10px black;
+//     border-radius: 20px;
+//     width: 300px;
+//     height: 400px;
+//     transition: 0.7s;
+// }
+
+// .box5 .div{
+//     transition: 1s;
+//     width: 300px;
+//     height: 400px;
+//     background-color: black;
+//     color: white;
+//     opacity: 0;
+//     border-radius: 20px;
+//     padding:20px;
+// }
+// .box5 .div a{
+//     display: inline-block;
+//     text-decoration: none;
+//     color: rgb(0, 0, 0);
+//     padding: 10px 20px;
+//     margin-top: 5px;
+//    background-color: white;
+// }
+// .box5:hover{
+//     transition: 0.7s;
+//     transform: translateY(30px) scale(1.1);
+//     transform: rotate3d(20deg);
+// }
+// .box5:hover .div{
+// opacity: 0.8;
+//     display: block;
+// }

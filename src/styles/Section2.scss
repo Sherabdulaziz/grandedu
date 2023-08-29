@@ -1,0 +1,110 @@
+.boxes3{
+    padding-top: 30px;
+    padding-bottom: 15px;
+    background-color: #eeeeee
+}   
+   .video{
+    margin-bottom: 20px;
+} 
+.sec2-p{
+    color: #000000;
+    font-size: 23px;
+    font-family: 'Roboto',Arial,sans-serif;
+    line-height: 1.15;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+        text-align: center; 
+        margin-bottom: 55px;
+        margin-top: 25px;
+        } 
+
+.p-100{
+    color: #000000;
+    font-size: 23px;
+    font-family: 'Roboto',Arial,sans-serif;
+    line-height: 1.15;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+        text-align: center; 
+        margin-bottom: 55px;
+        margin-top: -8px;
+        margin-bottom: 50px;
+}
+
+.p-3{
+    color: #000000;
+    font-size: 23px;
+    font-family: 'Roboto',Arial,sans-serif;
+    line-height: 1.15;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+ .cart .circle{ 
+    display: block;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    white-space: nowrap;
+    background-color:#4662f3;
+    color: #ffffff;
+    text-align: center; 
+    border-radius: 50%;
+    margin-right: 10px;
+    padding-top: 17px;
+    font-size: large;
+    font-weight: bold;
+    }
+    .cart .p-2{
+        color: #ffffff !important;
+        margin-top: -3px;
+    }
+    .cart h5{
+        font-weight: bold;
+        color: black;
+    }
+
+    .video:hover{
+        transition: 0.4s;
+        transform:  scale(1.1);
+    }
+    @media (max-width: 1199px){  
+        .video iframe{
+            height: 360px;
+            width: 670px;
+        }
+        }
+    @media (max-width: 1002px){  
+.video iframe{
+    height: 340px;
+    width: 670px;
+}
+}
+@media (max-width: 862px) {
+    .video iframe{
+        height: 300px;
+        width: 520px;
+    }
+  }
+  @media (max-width: 690px) {
+    .video iframe{
+        height: 230px;
+        width: 400px;
+    }
+    .sec2-p{
+        font-size: 19px;
+        margin-bottom: 10px;
+    }
+
+    h1{
+        font-size: 34px !important;
+    }
+  }
+  @media (max-width: 450px) {
+    .video iframe{
+        height: 200px;
+        width: 330px;
+    }
+  }
